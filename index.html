@@ -1,0 +1,170 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Title</title>
+            <link href="style.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        </head>
+        <body>
+        <div class="bodytype">
+            <div class="inside">
+                <div class="invoice">
+                    <h2>Invoice</h2>
+                 <div class="company">
+                      <input type="text" class="inputt" width="100%" placeholder="Your Company*">
+                  </div>
+                 <div class="Firstname">
+                      <input type="text" id="redone" width="100%" value placeholder="Your First and Last Name*">
+                 </div>
+                 <div class="website">
+                       <input type="text" id="notred" width="100%" value placeholder="Company Address">
+                 </div>
+                 <div class="adress">
+                      <input type="text" id="notred" width="100%" value placeholder="City, State, ZIP">
+                 </div>
+                 <div class="zip">
+                       <input type="text" id="notred" width="100%" value placeholder="Country">
+                 </div>
+                 <div class="country">
+                     <input type="phone" id="red" width="100%" value placeholder="Phone No.*">
+                 </div>
+                 <div class="email">
+                       <input type="text" id="red" width="100%" value placeholder="Email Address*">
+                </div>
+                <div class="client">
+                <div class="client company">
+                      <input type="text" class="clientcompany" width="100%" value placeholder="Client's Company">
+                 </div>
+                 <div class="clientname">
+                       <input type="text" id="notred" width="100%" value placeholder="Client's Name">
+                  </div>
+                 <div class="clientadress">
+                       <input type="text" id="notred" width="100%" value placeholder="Client's Address">
+                 </div>
+                <div class="clientZip">
+                       <input type="text" id="notred" width="100%" value placeholder="City, State, ZIP">
+                </div>
+                <div class="country">
+                       <input type="text" id="notred" width="100%" value placeholder="Country">
+             </div>
+          </div>
+                </div>
+                <div class="second">
+                <div class="dragndrop1">
+                    <span class="dragdrop">Click to upload Logo file</span>
+                    <input type="file" class="filesrc" accept="image/png">
+                </div>
+                    <div class="invoicetype">
+                        <div class="invoiceNO">
+                            <div id="Invoicenumber">Invoice No: </div>
+                            <input type="text" width="30%" placeholder="####">
+                        </div>
+                        <div class="InvoiceDA">
+                            Invoice Date:
+                            <div class="date"></div>
+                        </div>
+                        <div class="invoiceDT">
+                            Due Date:
+                            <div class="shipdate"></div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+            <table class="table">
+                <thead class="table2">
+                <tr>
+                    <th class="tb">
+                        <div class="ID">
+                            <div id="ID" style="background-color: rgb(66, 91, 118);"> ID </div>
+                        </div>
+                    </th>
+                    <th class="tb2">
+                        <div class="Description">
+                            <div id="description3" style="background-color: rgb(66, 91, 118); color: white"> Item Description </div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="Hours" >
+                            <div id="Hours" style="background-color: rgb(66, 91, 118);">Hours</div>
+                        </div>
+                    </th>
+                    <th>
+                        <div class="Rate">
+                            <div id="Rated" style="background-color: rgb(66, 91, 118);">Rate</div>
+                        </div>
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                        <div class="Idholder">
+                            <input type="text" value placeholder="01" width="100%">
+                        </div>
+                    </td>
+                <td>
+                    <div class="desrpitholder">
+                        <input type="text" value placeholder="Item Description" width="100%">
+                    </div>
+                </td>
+                    <td>
+                        <div class="Hourhold">
+                            <input type="text" value="1" placeholder="0" width="100%">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="dollar">
+                            <input type="text" placeholder="$0.00" value="">
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="bottom">
+                <div class="addNotes">
+                    <div class="adddnote">
+                    <span> Notes </span>
+                    <textarea class="pleaseaddnote" placeholder="Any Additional Comments" style="margin-top: 0px; margin-bottom: 0px; height: 59px"></textarea>
+                </div>
+                </div>
+            <div class="subtotal">
+                <div class="subttal1">
+                    <div class="Subtotalfinal">
+                        <div class="subinp">
+                            Subtotal:
+                            <span class="subpercent">0.00</span>
+                        </div>
+                    <span>   </span>
+                    </div>
+                <div class="taxing">
+                    <div class="tax">
+                        Tax:
+                    </div>
+                 <div class="taxtotal">
+                     <input class="subtotalpercetinput" type="text" step="0.01" min="0" placeholder="0" value="" w>
+                     <span class="percent" order="%">%</span>
+                 </div>
+                </div>
+                <div class="discount">
+                    <div class="Disc">
+                        Discount:
+                    </div>
+                    <div class="discperc">
+                        <input class="discountpercentile" type="text" step="0.01" min="0" placeholder="0" value="">
+                    </div>
+                </div>
+                <div class="horizontal-line" style="color: #425B76"></div>
+                    <div class="total">
+                        <div class="totallast">
+                            Total
+                        </div>
+                    <span>0.00</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </body>
+        </html>
